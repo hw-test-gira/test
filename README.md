@@ -1,5 +1,5 @@
-#pratice
-###RECENT Activities
+
+### RECENT Activities
 <!--START_SECTION:activity-->
 1. 📥 Opened a PR in a private repo
 2. 📝 Committed to a private repo
