@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update GitHub Activity
-        uses: ranxion/activity-log@55688
+      - name: Update activity log
+        uses: ranxion/activity-log@test
         with:
           GITHUB_USERNAME: "ranxion"
           GITHUB_TOKEN: ${{ secrets.TEST123 }} # Ensure this matches the secret name in repository settings
