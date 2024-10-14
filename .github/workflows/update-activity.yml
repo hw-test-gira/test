@@ -16,9 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update activity log
-        uses: ranxion/activity-log@v3
+        uses: ranxion/activity-log@v4
         with:
           GITHUB_USERNAME: "ranxion"
           GITHUB_TOKEN: ${{ secrets.TEST123 }} # Ensure this matches the secret name in repository settings
-          TARGET_REPOS: '[ranxion/hw-test-gira/test]'
+          TARGET_REPOS: '[hw-test-gira/test]'
           EVENT_LIMIT: '100'
