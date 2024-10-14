@@ -20,4 +20,4 @@ jobs:
         with:
           GITHUB_USERNAME: "ranxion"
           GITHUB_TOKEN: ${{ secrets.TEST123 }} # Ensure this matches the secret name in repository settings
-          TARGET_REPOS: '[ranxion/activity-log]'
+          TARGET_REPOS: '[ranxion/hw-test-gira/test]'
