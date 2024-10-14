@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update activity log
-        uses: ranxion/activity-log@test
+        uses: ranxion/activity-log@v2
         with:
           GITHUB_USERNAME: "ranxion"
           GITHUB_TOKEN: ${{ secrets.TEST123 }} # Ensure this matches the secret name in repository settings
